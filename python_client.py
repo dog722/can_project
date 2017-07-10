@@ -8,7 +8,7 @@ GPIO.setup(22,GPIO.OUT)
 #GPIO.output(22,True)
 
 #socket셋팅
-HOST = '218.144.17.41'#서버
+HOST = '52.79.108.212'#서버
 PORT = 30
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 s.connect((HOST,PORT))
